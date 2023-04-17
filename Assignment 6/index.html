@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <style>
+        /* heading  */
+
+      #heading {
+        background-color: black;
+        justify-content: center;
+        text-align: center;
+        height: 170px;
+      }
+
+      #heading h1 {
+        color: white;
+        font-size: 40px;
+        padding-top: 33px;
+      }
+      #heading p {
+        font-size: 17px;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.595);
+      }
+
+    </style>
+  </head>
+  <body>
+
+<!-- heading  -->
+    <div id="heading">
+      <h1>Assignment 6 : Carousel Assignment</h1>
+      <p>
+        Create a Carousal with Six Photos and add Some 
+caption To It with help of carousel-caption class as shown in Figure (You can 
+use any Data)
+      </p>
+    </div>
+
+
+
+    <!-- carousel  -->
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1506462945848-ac8ea6f609cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80" class="d-block w-100" height="550px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Taj Mahal</h5>
+              <p>The Taj Mahal is an Islamic ivory-white marble mausoleum on the right bank of the river</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1631287931300-53a975f3266c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fEdyZWF0JTIwV2FsbCUyMG9mJTIwQ2hpbmElMjBsYW5kc2NhcGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="550px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Great Wall of China</h5>
+              <p>The Great Wall of China is a series of fortifications that were built across the historical northern borders</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1662495044039-62791a3ce975?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Q2hpY2glQzMlQTluJTIwSXR6JUMzJUExfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="550px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Chichén Itzá</h5>
+              <p>Chichén Itzá is a complex of Mayan ruins on Mexico's Yucatán Peninsula.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1589825274556-94746a018766?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fFBldHJhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="550px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Petra</h5>
+              <p>Petra originally known to its inhabitants as Raqmu or Raqēmō, is a historic and archaeological city</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8TWFjaHUlMjBQaWNjaHV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="550px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Machu Picchu</h5>
+              <p>Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Q2hyaXN0JTIwdGhlJTIwUmVkZWVtZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="550px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Christ the Redeemer</h5>
+              <p>Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1604580864964-0462f5d5b1a8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Q29sb3NzZXVtfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" class="d-block w-100" height="550px" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Colosseum</h5>
+              <p>The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

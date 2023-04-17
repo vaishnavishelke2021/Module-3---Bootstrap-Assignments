@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 4</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <style>
+/* heading  */
+
+      #heading {
+        background-color: black;
+        justify-content: center;
+        text-align: center;
+        height: 170px;
+      }
+
+      #heading h1 {
+        color: white;
+        font-size: 40px;
+        padding-top: 33px;
+      }
+      #heading p {
+        font-size: 17px;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.595);
+      }
+
+      .navbar ul li a{
+        color: rgba(240, 248, 255, 0.741);
+        font-size: 1.3rem;
+        margin-left: 12px;
+        font-weight: 500;
+      }
+
+      .navbar ul li a:hover{
+        color: white;
+      }
+
+      .dropdown ul li a{
+        color: black;
+      }
+
+      .navbar{
+        background-color: red;
+      }
+
+      .dropdown-item:hover{
+        background-color: red;
+        margin: 0%;
+      }
+
+      
+    </style>
+  </head>
+  <body>
+<!-- heading  -->
+    <div id="heading">
+      <h1>Assignment 4 : Navigation Bar Assignment</h1>
+      <p>Create a navigation bar with help of nav 
+classes in bootstrap and add an Image Logo in navigation bar and Dropdown 
+List (You can use Any Logo and you can Use any Data For list in Navbar)
+
+      </p>
+    </div>
+
+
+
+ <!-- navbar  -->
+ <nav class="navbar navbar-expand-lg mt-5 px-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Marvel_Logo.svg/2560px-Marvel_Logo.svg.png" style="height: 1.7rem;" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 px-5">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Comics</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">News</a>
+        </li>
+      
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Shop
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Clothing</a></li>
+            <li><a class="dropdown-item" href="#">Accessories</a></li>
+            <li><a class="dropdown-item" href="#">Toys</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>

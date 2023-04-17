@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignment 5</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      /* heading  */
+
+      #heading {
+        background-color: black;
+        justify-content: center;
+        text-align: center;
+        height: 170px;
+      }
+
+      #heading h1 {
+        color: white;
+        font-size: 40px;
+        padding-top: 33px;
+      }
+      #heading p {
+        font-size: 17px;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.595);
+      }
+
+      .container{
+        width: 16%;
+        margin-top: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <!-- heading  -->
+    <div id="heading">
+      <h1>Assignment 5 : Vertical Buttons Assignment</h1>
+      <p>
+        Create a vertically Stacked buttons with help of button Class Having two
+        Dropdown List (Note 1 Dropdown should open in Right Direction and
+        another dropdown should open in down direction use suitable classes)
+      </p>
+    </div>
+
+    <!-- menu  -->
+
+   
+
+    <div class="container">
+      <div
+        class="btn-group-vertical d-flex justify-content-center"
+        role="group"
+        aria-label="Button group with nested dropdown"
+      >
+        <button type="button" class="btn btn-primary">Home</button>
+        <button type="button" class="btn btn-primary">About</button>
+        <button type="button" class="btn btn-primary">Contact</button>
+        <button type="button" class="btn btn-primary">Profile</button>
+        <button type="button" class="btn btn-primary">Dashboard</button>
+
+        <div class="btn-group dropend" role="group">
+          <button
+            id="btnGroupDrop1"
+            type="button"
+            class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Font-end-development
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item" href="#">HTML</a></li>
+            <li><a class="dropdown-item" href="#">CSS</a></li>
+            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+            <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+            <li><a class="dropdown-item" href="#">Angular</a></li>
+            <li><a class="dropdown-item" href="#">React</a></li>
+          </ul>
+        </div>
+
+        <div class="btn-group dropdown-menu-end" role="group">
+          <button
+            id="btnGroupDrop1"
+            type="button"
+            class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Back-end-development
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <li><a class="dropdown-item" href="#">Mongo-DB</a></li>
+            <li><a class="dropdown-item" href="#">Node-js</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

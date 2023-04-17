@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assignment 3</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <style>
+      /* heading  */
+
+      #heading {
+        background-color: black;
+        justify-content: center;
+        text-align: center;
+        height: 180px;
+      }
+
+      #heading h1 {
+        color: white;
+        font-size: 40px;
+        padding-top: 33px;
+      }
+      #heading p {
+        font-size: 17px;
+        margin-top: 15px;
+        color: rgba(255, 255, 255, 0.595);
+      }
+
+      .container {
+        height: 1250px;
+        width: 80%;
+        background-color: rgba(128, 128, 128, 0.308);
+        padding-top: 50px;
+      }
+      .card {
+        margin: auto;
+        margin-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      .btn {
+        background-color: blue;
+        padding: 0.2rem 1rem;
+        width: 200px;
+        margin: auto;
+        margin-top: 15px;
+      }
+
+      .personal-details {
+        background-color: rgba(128, 128, 128, 0.61);
+        margin-top: 35px;
+      }
+
+      .links{
+        font-size: 1.4rem;
+        margin: auto;
+      }
+
+      .links a i{
+        margin-left: 11px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- heading  -->
+    <div id="heading">
+      <h1>Assignment 3 : Card Assignment</h1>
+      <p>
+        Create a Bootstrap Card Consisting of card-body, cardtitle, photo,
+        card-text, buttons, card-link, card-img-top, list-group listgroup-flush,
+        list-group-item. (Note: Information in Card Should Be Personal
+        Information not dummy Information)
+      </p>
+    </div>
+
+    <!-- card  -->
+    <div class="container">
+      <div class="card" style="width: 19rem">
+        <img
+          src="vaishnaviii.20-20220215-00012.jpg"
+          class="card-img-top img-fluid"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Vaishnavi Shelke</h5>
+          <p class="card-text">
+            I am Vaishnavi Shelke, studying Computer Engineering in Sandip
+            Foundation, Nashik. Currently I am learning Full Stack Web
+            Development from <i>Talent Battle</i>.
+          </p>
+          <!-- <a href="#" class="btn btn-primary">Go to top</a> -->
+        </div>
+
+        <div class="card-header personal-details">Personal Details</div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><b> DOB </b>: 20/03/2002</li>
+          <li class="list-group-item"><b> Qualification </b>: BE Computer 2023</li>
+          <li class="list-group-item"><b> University </b>: Pune University</li>
+          <li class="list-group-item"><b> Location </b>: Nashik</li>
+        </ul>
+
+        <div class="card-header personal-details">My Skills</div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">HTML</li>
+          <li class="list-group-item">CSS</li>
+          <li class="list-group-item">Bootstrap</li>
+          <li class="list-group-item">Python</li>
+          <li class="list-group-item">UI/UX Design</li>
+        </ul>
+
+        <div class="card-body links">
+            <a href="#" class="card-link"><i class="bi bi-linkedin"></i></a>
+            <a href="#" class="card-link"><i class="bi bi-github"></i></a>
+            <a href="#" class="card-link"><i class="bi bi-envelope-fill"></i></a>
+            <a href="#" class="card-link"><i class="bi bi-dribbble"></i></a>
+
+          </div>
+          <a href="#" class="btn btn-primary">Go to top</a>
+      </div>
+      </div>
+
+      
+
+      <!-- container end  -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
